@@ -1,1 +1,19 @@
-// placeholder commits via phone
+public class MathMod {
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 10;
+        int c = -10;
+
+        System.out.println(Math.max(a, b));
+        System.out.println(Math.min(a, b));
+        System.out.println(Math.sqrt(a));
+        System.out.println(Math.abs(c));
+        System.out.println(Math.random());
+
+        int randomNum = (int)(Math.random() * 101);
+
+        System.out.println(randomNum);
+
+
+    }
+}
