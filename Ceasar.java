@@ -16,12 +16,13 @@ public class Ceasar{
         return newTxt;
     }
 
-
     public static void main(String[] args){
         String txt = "hello sir this is very cool to see that you are here!";
         String a = ceasar(txt, 1);
-        System.out.println(a);
+        String oldTxt = ceasar(a, -1);
         System.out.println(txt);
+        System.out.println(a);
+        System.out.println(oldTxt);
 
     }
 }
