@@ -4,6 +4,12 @@ import java.awt.*;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
+// it's difficult to find the right way
+// to do it in Java
+
+// there are many options 
+
+
 class Window {
 
     static JFrame frame;
