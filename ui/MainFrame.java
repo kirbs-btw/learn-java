@@ -9,14 +9,16 @@ public class MainFrame extends javax.swing.JFrame{
         frame.setTitle("Hello World");
         frame.setSize(1000, 620);
         frame.setResizable(false);
-        frame.setLocation(50, 50);
+        // frame.setLocation(50, 50);
         frame.setVisible(true);
 
 
         JPanel panel = new JPanel();
         JButton button = new JButton("click");
+        JLabel label = new JLabel("hello");
         panel.add(button);
         frame.add(panel);
+        frame.add(label);
 
         frame.pack();
     }
